@@ -1,0 +1,357 @@
+.social-icons a {
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+.social-icons i {
+    transition: transform 0.3s; /* Transição suave para efeito de hover */
+}
+
+.social-icons i:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do ícone ao passar o mouse */
+}
+body {
+    height: 100%; /* Garante que o HTML e o body ocupem toda a altura da tela */
+    margin: 0; /* Remove as margens padrão */
+    overflow: hidden; /* Impede a rolagem da página */
+    display: flex; /* Usar flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #000; /* Fundo externo preto */
+}
+
+.container {
+    height: 90%; /* Altura da container ocupa 90% da altura da tela */
+    width: 90%; /* Largura da container ocupa 90% da largura da tela */
+    background-color: #000; /* Fundo do conteúdo (preto) */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+    color: #fff; /* Cor do texto (branco) */
+    display: flex; /* Usar flexbox para organizar o conteúdo */
+    flex-direction: column; /* Alinha os itens verticalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente dentro da container */
+    align-items: center; /* Centraliza o conteúdo horizontalmente dentro da container */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o título */
+}
+
+.font-sample {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.font-sample div {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff; /* Efeito de brilho também para os nomes */
+}
+
+.verified {
+    display: inline-flex;
+    align-items: center;
+    color: #00bfff; /* Azul para a verificação */
+}
+
+.verified i {
+    margin-left: 5px; /* Espaçamento entre o ícone e o nome */
+    color: #00bfff; /* Cor azul do ícone */
+}
+
+.profile-pic {
+    width: 100px; /* Tamanho da imagem */
+    height: 100px; /* Tamanho da imagem */
+    border-radius: 50%; /* Arredondar a imagem */
+    object-fit: cover; /* Ajustar a imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #00bfff; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão */
+    margin-top: 20px; /* Espaçamento acima do botão */
+    text-align: center; /* Centraliza o texto no botão */
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte do botão */
+}
+html, body {
+    height: 100%; /* Garante que a altura do HTML e body ocupe toda a tela */
+    margin: 0; /* Remove as margens padrão */
+    overflow: hidden; /* Impede a rolagem da página */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000; /* Fundo externo preto */
+}
+
+.container {
+    height: 100%; /* Altura da container ocupa 100% da altura da tela */
+    background-color: #000; /* Fundo do conteúdo (preto) */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+    color: #fff; /* Cor do texto (branco) */
+    overflow: auto; /* Se necessário, permite rolagem interna apenas dentro da container */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o título */
+}
+
+.font-sample {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.font-sample div {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff; /* Efeito de brilho também para os nomes */
+}
+
+.verified {
+    display: inline-flex;
+    align-items: center;
+    color: #00bfff; /* Azul para a verificação */
+}
+
+.verified i {
+    margin-left: 5px; /* Espaçamento entre o ícone e o nome */
+    color: #00bfff; /* Cor azul do ícone */
+}
+
+.profile-pic {
+    width: 100px; /* Tamanho da imagem */
+    height: 100px; /* Tamanho da imagem */
+    border-radius: 50%; /* Arredondar a imagem */
+    object-fit: cover; /* Ajustar a imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+html, body {
+    overflow: hidden; /* Impede a rolagem da página */
+    height: 100%; /* Garante que o corpo ocupe toda a altura */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000; /* Fundo externo preto */
+}
+
+.container {
+    background-color: #000; /* Fundo do conteúdo (preto) */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+    color: #fff; /* Cor do texto (branco) */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o título */
+}
+
+.font-sample {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.font-sample div {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff; /* Efeito de brilho também para os nomes */
+}
+
+.verified {
+    display: inline-flex;
+    align-items: center;
+    color: #00bfff; /* Azul para a verificação */
+}
+
+.verified i {
+    margin-left: 5px; /* Espaçamento entre o ícone e o nome */
+    color: #00bfff; /* Cor azul do ícone */
+}
+
+.profile-pic {
+    width: 100px; /* Tamanho da imagem */
+    height: 100px; /* Tamanho da imagem */
+    border-radius: 50%; /* Arredondar a imagem */
+    object-fit: cover; /* Ajustar a imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+     
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000; /* Fundo externo preto */
+}
+
+.container {
+    background-color: #000; /* Fundo do conteúdo (preto) */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+    color: #fff; /* Cor do texto (branco) */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o título */
+}
+
+.font-sample {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.font-sample div {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff; /* Efeito de brilho também para os nomes */
+}
+
+.verified {
+    display: inline-flex;
+    align-items: center;
+    color: #00bfff; /* Azul para a verificação */
+}
+
+.verified i {
+    margin-left: 5px; /* Espaçamento entre o ícone e o nome */
+    color: #00bfff; /* Cor azul do ícone */
+}
+
+.profile-pic {
+    width: 100px; /* Tamanho da imagem */
+    height: 100px; /* Tamanho da imagem */
+    border-radius: 50%; /* Arredondar a imagem */
+    object-fit: cover; /* Ajustar a imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000; /* Fundo externo preto */
+    color: #00bfff; /* Cor azul para o texto */
+}
+
+.container {
+    background-color: #f9f9f9; /* Fundo do conteúdo (claro) */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o título */
+}
+
+.font-sample {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.font-sample div {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff; /* Efeito de brilho também para os nomes */
+}
+
+.verified {
+    display: inline-flex;
+    align-items: center;
+    color: #00bfff; /* Azul */
+}
+
+.verified i {
+    margin-left: 5px; /* Espaçamento entre o ícone e o nome */
+    color: #00bfff; /* Cor azul do ícone */
+}
+
+.profile-pic {
+    width: 100px; /* Tamanho da imagem */
+    height: 100px; /* Tamanho da imagem */
+    border-radius: 50%; /* Arredondar a imagem */
+    object-fit: cover; /* Ajustar a imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000; /* Fundo preto */
+    color: #00bfff; /* Cor azul para o texto */
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff; /* Efeito de brilho nas letras */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o título */
+}
+
+.font-sample {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.font-sample div {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff; /* Efeito de brilho também para os nomes */
+}
+
+.verified {
+    display: inline-flex;
+    align-items: center;
+    color: #00bfff; /* Azul */
+}
+
+.verified i {
+    margin-left: 5px; /* Espaçamento entre o ícone e o nome */
+    color: #00bfff; /* Cor azul do ícone */
+}
+
+.profile-pic {
+    width: 100px; /* Tamanho da imagem */
+    height: 100px; /* Tamanho da imagem */
+    border-radius: 50%; /* Arredondar a imagem */
+    object-fit: cover; /* Ajustar a imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+
